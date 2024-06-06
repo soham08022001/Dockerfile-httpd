@@ -1,16 +1,17 @@
-#  create httpd file and add content according to your requirements.
-#  copy httpd file content and paste it in your file
+Create httpd file and add content according to your requirements.
+Copy httpd file content and paste it in your file
   cat > httpd
 Install Docker in your system.
-# yum install docker -y (aws-Linux) OR # apt-get update && apt-get install docker.io -y
+  yum install docker -y (aws-Linux)  
+  apt-get update && apt-get install docker.io -y (Ubuntu)
 Create Dockerfile & paste Dockerfile file content in it.
-# cat > Dockerfile
+  cat > Dockerfile
 Build Image through Dockerfile
-# docker build -t <tag_name_image> .
+  docker build -t <tag_name_image> .
 Check your Image
-# docker images
+  docker images
 Run container through Image.
-# docker run -itd -P <tag_name_image>
+  docker run -itd -P <tag_name_image>
 Check you running container with port_number
-# docker ps
+  docker ps
 Now, copy public_IP of instance and paste it on browser with assigned port_number, you will get to see your application /content
