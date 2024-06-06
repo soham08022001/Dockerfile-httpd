@@ -1,6 +1,6 @@
 create httpd file and add content according to your requirements.
 copy httpd file content and paste it in your file
-# cat > httpd
+$ cat > httpd
 Install Docker in your system.
 # yum install docker -y (aws-Linux) OR # apt-get update && apt-get install docker.io -y
 Create Dockerfile & paste Dockerfile file content in it.
